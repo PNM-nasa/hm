@@ -1,0 +1,32 @@
+#display {
+  height: 200px;
+  background: #eee;
+  position: relative;
+}
+#player {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url("./tyrannosaurus-rex.png");
+  background-size: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#block {
+  width: 20px;
+  height: 50px;
+  background: #ccc;
+  position: absolute;
+  bottom: 20px;
+}
+ 
+#control{
+  position: absolute;
+  top: 45%;
+  bottom: 45%;
+  left: 30%;
+  right: 30%;
+  background: #ccc;
+
+}
